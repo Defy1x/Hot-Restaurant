@@ -32,11 +32,11 @@ Note: We know this is a hard activity. We know you aren't yet comfortable with N
 
 * Create a set of routes for displaying the HTML pages (DONE)
 
-* Use jQuery to run AJAX calls to GET and POST data from users to the Express server
+* Use jQuery to run AJAX calls to GET and POST data from users to the Express server DONE
 
-* Create a few array variables that will hold the data
+* Create a few array variables that will hold the data DONE
 
-* Create a set of routes for getting and posting table data
+* Create a set of routes for getting and posting table data DONE
 
 
 ---------------------
@@ -77,13 +77,13 @@ If you finish early begin creating the code necessary to convert your form data 
 
 ## Phase IV - For this fourth phase, aim to complete the following
 
-* Backend Team:
+* Backend Team: DONE
 
 Create the logic that handles reservation requests. Your code should work such that POST requests take in JSON objects, checks if there is any space left, then adds the JSON object to either the reservation array or the waitlist array. Your POST route should also respond to requests with a confirmation (true or false) of whether or not the requestor has a reservation (or is on the waiting list).
 
 You should be using Insomnia Core to do all your testing at this point.
 
-* Frontend Team:
+* Frontend Team: DONE
 
 Begin to do serious research on AJAX. Specifically, focus your attention on how AJAX can be used to do both GET and POST requests.
 
