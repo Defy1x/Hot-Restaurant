@@ -2,6 +2,11 @@
 
 const express = require('express');
 const path = require('path');
+const tableData = require('./data/tableData')
+const waitingData = require('./data/waitingListData')
+
+console.log(tableData)
+console.log(waitingData)
 
 // Sets up the Express App
 
@@ -18,6 +23,10 @@ app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'public/index.html'
 app.get('/tables', (req, res) => res.sendFile(path.join(__dirname, 'public/tables.html')));
 
 app.get('/reserve', (req, res) => res.sendFile(path.join(__dirname, 'public/reserve.html')));
+
+app.get('/api/tables', (req, res) => res.json(tableData));
+
+app.get('/api/waitlist', (req, res) => res.json(waitingData));
 
 
 app.listen(PORT, () => console.log(`App listening on PORT ${PORT}`));

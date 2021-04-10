@@ -4,8 +4,8 @@
 
 Today you will be building a Node / Express based web applications for handling reservation requests.
 
-Your application will be made up of two parts: 
-1) A front-end set of HTML/CSS/JS pages for entering and viewing data and 
+Your application will be made up of two parts:
+1) A front-end set of HTML/CSS/JS pages for entering and viewing data and
 2) A back-end composed of Node/Express and basic JS for storing, updating, and relaying reservation data.
 
 Spend the time necessary to map this application out. Consider the concepts we've covered in class so far:
@@ -26,24 +26,25 @@ Note: We know this is a hard activity. We know you aren't yet comfortable with N
 
 ## Phase I - For this first phase, aim to write out the pieces that will need to be programmed to create the functionality of your application. Try to break it into 6-7 pieces
 
-* Create the front-end (visuals) for home page, reservation form, and reservation views.
+* Create the front-end (visuals) for home page, reservation form, and reservation views. (DONE)
 
-* Create a basic server using Express.JS
+* Create a basic server using Express.JS (DONE)
+
+* Create a set of routes for displaying the HTML pages (DONE)
+
+* Use jQuery to run AJAX calls to GET and POST data from users to the Express server
 
 * Create a few array variables that will hold the data
 
 * Create a set of routes for getting and posting table data
 
-* Create a set of routes for displaying the HTML pages
-
-* Use jQuery to run AJAX calls to GET and POST data from users to the Express server
 
 ---------------------
 
 
 ## Phase II - For this second phase, aim to complete the following
 
-* Backend Team:
+* Backend Team: DONE
 
 Create a basic Express server.
 
