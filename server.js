@@ -4,6 +4,9 @@ const express = require('express');
 const path = require('path');
 const tableData = require('./data/tableData')
 const waitingData = require('./data/waitingListData')
+const textSent = require('./send-sms')
+const MessagingResponse = require('twilio').twiml.MessagingResponse;
+
 
 console.log(tableData)
 console.log(waitingData)
@@ -43,6 +46,9 @@ const newReservation = req.body;
     res.json(false)
   }
 
+  textSent(req.body);
+  console.log(req.body.phoneNumber);
+
 });
 
 app.post('/api/clear', (req, res) => {
@@ -50,6 +56,15 @@ app.post('/api/clear', (req, res) => {
   waitingData.length = 0;
 
   res.json({});
+});
+
+app.post('/sms', (req, res) => {
+  const twiml = new MessagingResponse();
+
+  twiml.message('The Robots are coming! Head for the hills!');
+
+  res.writeHead(200, {'Content-Type': 'text/xml'});
+  res.end(twiml.toString());
 });
 
 app.listen(PORT, () => console.log(`App listening on PORT ${PORT}`));

@@ -19,6 +19,9 @@
   },
   "homepage": "https://github.com/Defy1x/Hot-Restaurant#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "@types/express": "^4.17.11",
+    "@types/qs": "^6.9.6",
+    "express": "^4.17.1",
+    "twilio": "^3.60.0"
   }
 }
