@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Defy1x/Hot-Restaurant/issues"
   },
-  "homepage": "https://github.com/Defy1x/Hot-Restaurant#readme"
+  "homepage": "https://github.com/Defy1x/Hot-Restaurant#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
