@@ -50,7 +50,7 @@ Create a basic Express server.
 
 Your server at this point should do the BARE MINIMUM. (Effectively, it should just say: "Listening at PORT 3000" when the command node server.js is run.)
 
-* Frontend Team:
+* Frontend Team: DONE
 
 Create three HTML files one called home.html, another called tables.html, and another called reserve.html. Use dummy data and create pages similar to the one shown to you on the sample Hot Reservation webpage.
 All: If you finish early, begin thinking about how the Data, API, and Routes should look.
@@ -60,13 +60,13 @@ All: If you finish early, begin thinking about how the Data, API, and Routes sho
 
 ## Phase III - For this third phase, aim to complete the following
 
-* Backend Team:
+* Backend Team: DONE
 
 Create a set of variables (hint: arrays of objects) for holding the reservation and waitlist data
 
 Create a set of routes that then display this data as JSONs. Users should be given these JSONs if they visit the appropriate page (i.e. if a user visits localhost:3000/api/tables they should see a JSON of table data).
 
-* Frontend Team:
+* Frontend Team: DONE
 
 Temporarily join the backend team. Your task will be to create Express routes that display your HTML pages when a user visits the appropriate page. (i.e. if a user visits localhost:3000/tables... they should be shown the table.html page.)
 
